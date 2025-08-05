@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Rockwell', serif;
+    background-color: #fff;
+    color: #000;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #BBC8DB;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(105, 105, 105, 0.6);
+    z-index: 1000;
+}
+
+.navlogo-img {
+    height: 3.75rem;
+    width: auto;
+    margin-left: 0.625rem;
+}
+
+.navtop {
+    margin-right: 1.875rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.homebanner {
+    width: 100%;
+    aspect-ratio: 1920 / 680;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.divider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.divider-img {
+    display: block;
+    width: 20%;
+    margin: 1.25rem auto;
+    object-fit: cover;
+}
+
+.inside-txt {
+    max-width: 80%;
+    font-family: 'Rockwell', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.txtbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid #6BD5EF;
+    margin: 20px auto;
+    max-width: 950px;
+    height: auto;
+}
+
+.text-txtbox {
+    max-width: 60%;
+    font-family: 'Rockwell', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: center;
+}
